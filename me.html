@@ -1,53 +1,76 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="me.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC&family=Shadows+Into+Light&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <title>Jen's First Website</title>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+   
   
-    <title>Me</title>
-  </head>
+</head>
   <body>
 
-    <header>
-
-      <h1>About Me</h1>
+    <body style="font-family: Quicksand;">
   
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#footer">Contact</a></li>    
-      </nav>
-
-     </header>
-     
-     <br>
-      <main>
-
-        <img src="https://bestanimations.com/media/sharks/1198966472hammerhead-shark-swims-by-ocean-animated-gif.gif">
-        <p>Hi! I'm Jen. I'm from Atlanta, Ga. I have an insanely full house consisting of my husband, my son (who is 17; please pray for me!), two dogs, a bearded dragon, two tarantulas, a pacman frog, and a fish. Most of these belong to my son. I'm hoping the spiders go with him when he goes to college!</p>
-      </p>
-      <p>I graduated from UGA with my BA in political science, and worked for the Democratic Party of Georgia until I realized I hated working in politics. I decided to follow my original career plan of being a doctor, so I earned a BS in biology to meet the prerequisites for medical school. I started medical school at Emory University, and I attended for 2 years before I realized that I also hated working in medicine.</p>
-      <p>Following my chlidhood dream, I earned my MS in Marine Biology. My specialty is in conservation of marine predators. I spent a year researching the migratory patterns of hammerhead sharks in south Florida. Our research team got to catch the sharks, take blood samples, tag them, and release them. We then could track the sharks' movements and detect patterns or the lack thereof. I loved what I was doing, but my husband was offered a job directing a movie in Atlanta, so here we are!</p>
-
       
+      <div class="container d-none d-lg-block mt-2">
+          
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            
+            <a class="navbar-brand" href="#" style="font-family: Quicksand;"> 
+                <img src="https://www.dropbox.com/s/a83mqzpp9rw3n48/laptopmemoji.jpg?raw=1" class="d-inline-block align-top" width="60" height="60"/>
+                <span class="font-weight-bold h3 bg-logo p-1">jen</span>
+                <span class="font-weight-lighter h3" style="font-family: Quicksand;">perez</span>
+    
+                </a>
+                
+            
+                <ul class="navbar-nav ml-auto">
+                  
+                    <a class="nav-link" href="index.html"><span class="material-icons">home</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="me.html"><span class="material-icons">face</span></a>
+                  </li>
+                      <li class="nav-item">
+                    <a class="nav-link" href="mailto: yourname@email.com"><span class="material-icons">email</span></a>
+                  </li>
+                      <li class="nav-item">
+                    <a class="btn" href="https://www.patreon.com/jenperezdev"><span class="material-icons">attach_money</span></a>
+                  </li>
+    
+                </ul>
+                <button class="burger-menu" id="burger-menu">
+                  <ion-icon class="bars" name="menu-outline"></ion-icon>
+                  <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+                  </button>
+               </nav> <!--nav-->
+              
+              </div> <!--container-->
 
-
-
-      </main>
-
+   
+     
+    
 
 
   
-      <footer id="footer">
-        <p style="font-family: 'Amatic SC', cursive">Contact Me!</p>
-        <a href="mailto:jen@jenperez.dev">Email</a>
-    
-        </footer>
+      
 
     
 
