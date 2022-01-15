@@ -30,6 +30,13 @@ navLink.forEach((link) =>
   })
 );
 
+/*scroll to top functionality */
+const scrollUp = 
+  document.querySelector("#scroll-up");
+
+
+
+
 // scroll to top functionality
 scrollUp.addEventListener("click", () => {
   window.scrollTo({
